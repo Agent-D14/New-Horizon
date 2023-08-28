@@ -30,6 +30,11 @@ nav ul li{
   padding: 10 !important;
   height: 6rem !important;
 }
+@media(max-width:768px){
+  .navbar-brand{
+    width: 7rem;
+  }
+}
 .navbar-nav >li >a.active, .navbar-nav >li >a:focus{
   border-bottom: .12875rem solid rgb(216, 145, 4);
 }
@@ -39,6 +44,59 @@ nav ul li{
 }
 .hamburger{
   color: white;
-  margin-right: 6.75rem;
-  border: none;
+  margin-right: 4.688rem;
+}
+.hamburger:focus{
+  outline:none;
+}
+
+/****************** Header *********************/
+
+.header-wrapper{
+  position: relative;
+  background: url(computer2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-family: "Roboto Condensed" sans-serif;
+
+}
+.main-info h1{
+  color: orange;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/****************** Typed Text *********************/
+.typed-text{
+  color: white;
+  font-size: 2rem;
+}
+
+/****************** Header Button *********************/
+.btn-main-offer{
+  background-color: rgb(0, 187, 168);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: .625rem .75rem .75rem .75rem;
+  color: white;
+  margin-top: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-main-offer:hover{
+  background-color: rgba(0, 187, 168, 0.634);
+  transition: .2s ease-in-out;
+  
 }
