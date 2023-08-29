@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/New-Horizon/static/css/main.003bf8d5.css",
+    "main.js": "/New-Horizon/static/js/main.a3196b3a.js",
+    "static/js/787.7b954dcf.chunk.js": "/New-Horizon/static/js/787.7b954dcf.chunk.js",
+    "static/media/computer2.jpg": "/New-Horizon/static/media/computer2.c9a533bc661f79b22f7e.jpg",
+    "static/media/logo_org.png": "/New-Horizon/static/media/logo_org.c94c1eaf8cdb25ab613e.png",
+    "index.html": "/New-Horizon/index.html",
+    "main.003bf8d5.css.map": "/New-Horizon/static/css/main.003bf8d5.css.map",
+    "main.a3196b3a.js.map": "/New-Horizon/static/js/main.a3196b3a.js.map",
+    "787.7b954dcf.chunk.js.map": "/New-Horizon/static/js/787.7b954dcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.003bf8d5.css",
+    "static/js/main.a3196b3a.js"
+  ]
+}
